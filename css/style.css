@@ -1,27 +1,73 @@
 
 
 
-. {
+.body {
     margin: 0;
     padding: 0;
 }
+.body {
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    max-width: 1700px;
+}
+
+.html {
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    max-width: 1700px;
+}
+
 
 
 
 .ul {
     float: left;
+    padding: 10px;
 }
 
-img.background {
+.junk {
+    float: left;
+    padding: 1%;
+    margin: 10px;
+    margin-bottom: 10%;
+    
+}
+
+.oceanjunk {
+    float: left;
+    display: flex;
+    justify-content: baseline;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-top: 0%;
+    max-width: 500px;
+}
+
+.img.background {
     max-width: 100%;
-    height: auto;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body {
     background: url (media/video/Ocean-Poster.gif) no-repeat center;
+    background-repeat: 0 no-repeat;
     background-size: cover;
-    height: 1080px;
-  position: relative;
+  position: center; 
+  }
+  
+    }
+
+.background {
+    background-color: rgb(20, 42, 80);
 }
 
 .menu ul {
@@ -32,9 +78,11 @@ body {
 .menu li {
     display: block;
     text-align: center;
-    float: right;
-    width: 1000px;
+    float: left;
+    width: 400px;
     padding-left: 100%;
+   padding-bottom: 0%;
+   
 }
 
 .menu li a:hover {
@@ -54,6 +102,7 @@ h1{
     font-style: bold;
     font-size: 56px;
     margin-left: 30px;
+    margin-top: 300px;
   
 }
 
@@ -70,7 +119,7 @@ h3 {
 font-weight: 800;
 font-style: normal;
 color: #000;
-font-size: 30px;
+font-size: 48px;
 margin-left: 30px;
 }
 
@@ -82,62 +131,104 @@ font-size: 48px;
 margin-left: 30px;
 }
 
-#answer {
-    position: absolute;
-    width: 200px;
-    height: 60px;
-    top: 10%;
-    left: 5%;
+h5 {
+     font-family: "brevia", sans-serif;
+    font-weight: 1000;
+    font-style: bold;
+    font-size: 48px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.question {
+    display: inline;
+    margin-top: 530px;
+}
+
+
+
+
+.answer1 {
+    display: block;
+    margin-left: 30px;
+    width: 100%;
 }
 
 .bottle1 {
-    padding-left: 10%;
+    padding-left: 1%;
     padding-bottom: 0%;
     float: left;
 }
 
+
 @keyframes bottle1 {
    0%  {opacity: 0%}
-    10% {opacity: 10%}
-    20% {opacity: 20%}
-    30% {opacity: 30%}
-    40% {opacity: 40%}
-    50% {opacity: 50%}
-   60%  {opacity: 60%}
-    70% {opacity: 70%}
-   80%  {opacity: 80%}
-    90% {opacity: 90%}
-    100% {opacity:100% }
+    5% {opacity: 10%}
+    10% {opacity: 20%}
+    15% {opacity: 30%}
+    20% {opacity: 40%}
+    25% {opacity: 50%}
+   30%  {opacity: 60%}
+    35% {opacity: 70%}
+   40%  {opacity: 80%}
+    45% {opacity: 90%}
+    50% {opacity:100%}
+    55% {opacity: 90%}
+    60% {opacity: 80%}
+    65% {opacity: 70%}
+    70%  {opacity: 60%}
+    75% {opacity: 50%}
+    80% {opacity: 40%}
+    85% {opacity: 30%}
+    90% {opacity: 20%}
+    95% {opacity: 10%}
+    100% {opacity: 0%}
 
+}
+
+#b1factsA {
+    position: relative;
+    top: 80%;
+    left: 25%;
 }
 
 #bottle1 {
     width: 200px;
     height: 200px;
-    animation: bottle1 10s 30s infinite;
-    animation-duration: 12s;
+    animation: bottle1 20s 30s infinite;
+    animation-duration: 20s;
     animation-delay: 30s;
    
 }
 
-.bottle2 {
-    padding-left: 20%;
+#bottle2 {
+    padding-left: 2%;
     padding-bottom: 0%;
     float: left;
 }
 
 @keyframes bottle2 {
    0%  {opacity: 0%}
-    12% {opacity: 10%}
-    20% {opacity: 20%}
-    34% {opacity: 30%}
-    45% {opacity: 40%}
-    50% {opacity: 50%}
-   60%  {opacity: 60%}
-    70% {opacity: 70%}
-   80%  {opacity: 80%}
-    90% {opacity: 90%}
-    100% {opacity:100% }
+    5% {opacity: 10%}
+    10% {opacity: 20%}
+    15% {opacity: 30%}
+    20% {opacity: 40%}
+    25% {opacity: 50%}
+   30%  {opacity: 60%}
+    35% {opacity: 70%}
+   40%  {opacity: 80%}
+    45% {opacity: 90%}
+    50% {opacity:100%}
+    55% {opacity: 90%}
+    60% {opacity: 80%}
+    65% {opacity: 70%}
+    70%  {opacity: 60%}
+    75% {opacity: 50%}
+    80% {opacity: 40%}
+    85% {opacity: 30%}
+    90% {opacity: 20%}
+    95% {opacity: 10%}
+    100% {opacity: 0%}
 }
 
  #bottle2 {
@@ -146,33 +237,295 @@ margin-left: 30px;
     animation: bottle2 10s 30s infinite; 
 animation-duration: 10s;
 animation-delay: 33s;
+margin-top: 75%;
 }
 
-.bottle3 {
-    padding-left: 25%;
+#bottle3 {
+    padding-left: 2%;
     padding-bottom: 0%;
     float: left;
 }
 
 @keyframes bottle3 {
     0%  {opacity: 0%}
-     9% {opacity: 10%}
-     21% {opacity: 20%}
-     31% {opacity: 30%}
-     45% {opacity: 40%}
-     50% {opacity: 50%}
-    60%  {opacity: 60%}
-     75% {opacity: 70%}
-    80%  {opacity: 80%}
-     90% {opacity: 90%}
-     100% {opacity:100% }
+     5% {opacity: 10%}
+     10% {opacity: 20%}
+     15% {opacity: 30%}
+     20% {opacity: 40%}
+     25% {opacity: 50%}
+    30%  {opacity: 60%}
+     35% {opacity: 70%}
+    40%  {opacity: 80%}
+     45% {opacity: 90%}
+     50% {opacity:100%}
+     55% {opacity: 90%}
+     60% {opacity: 80%}
+     65% {opacity: 70%}
+     70%  {opacity: 60%}
+     75% {opacity: 50%}
+     80% {opacity: 40%}
+     85% {opacity: 30%}
+     90% {opacity: 20%}
+     95% {opacity: 10%}
+     100% {opacity: 0%}
  }
 
  #bottle3 {
     width: 200px;
     height: 200px;
-    animation: bottle3 13s 35s infinite; 
-    animation-delay: 36s;
+    animation: bottle3 23s 35s infinite; 
+    animation-delay: 16s;
+ }
+
+ @keyframes bottle4 {
+    0%  {opacity: 0%}
+     5% {opacity: 10%}
+     10% {opacity: 20%}
+     15% {opacity: 30%}
+     20% {opacity: 40%}
+     25% {opacity: 50%}
+    30%  {opacity: 60%}
+     35% {opacity: 70%}
+    40%  {opacity: 80%}
+     45% {opacity: 90%}
+     50% {opacity:100%}
+     55% {opacity: 90%}
+     60% {opacity: 80%}
+     65% {opacity: 70%}
+     70%  {opacity: 60%}
+     75% {opacity: 50%}
+     80% {opacity: 40%}
+     85% {opacity: 30%}
+     90% {opacity: 20%}
+     95% {opacity: 10%}
+     100% {opacity: 0%}
+ }
+
+ #bottle4 {
+    width: 200px;
+    height: 200px;
+    animation: bottle3 26s 30s infinite; 
+    animation-delay: 11s;
+ }
+
+ @keyframes bluebag4 {
+    0%  {opacity: 0%}
+     5% {opacity: 10%}
+     10% {opacity: 20%}
+     15% {opacity: 30%}
+     20% {opacity: 40%}
+     25% {opacity: 50%}
+    30%  {opacity: 60%}
+     35% {opacity: 70%}
+    40%  {opacity: 80%}
+     45% {opacity: 90%}
+     50% {opacity:100%}
+     55% {opacity: 90%}
+     60% {opacity: 80%}
+     65% {opacity: 70%}
+     70%  {opacity: 60%}
+     75% {opacity: 50%}
+     80% {opacity: 40%}
+     85% {opacity: 30%}
+     90% {opacity: 20%}
+     95% {opacity: 10%}
+     100% {opacity: 0%}
+ }
+
+ #bluebag4 {
+    width: 100%;
+    height: 100%;
+    animation: bottle3 20s 28s infinite; 
+    animation-delay: 22s;
+ }
+
+ @keyframes bluecapstanding {
+    0%  {opacity: 0%}
+     5% {opacity: 10%}
+     10% {opacity: 20%}
+     15% {opacity: 30%}
+     20% {opacity: 40%}
+     25% {opacity: 50%}
+    30%  {opacity: 60%}
+     35% {opacity: 70%}
+    40%  {opacity: 80%}
+     45% {opacity: 90%}
+     50% {opacity:100%}
+     55% {opacity: 90%}
+     60% {opacity: 80%}
+     65% {opacity: 70%}
+     70%  {opacity: 60%}
+     75% {opacity: 50%}
+     80% {opacity: 40%}
+     85% {opacity: 30%}
+     90% {opacity: 20%}
+     95% {opacity: 10%}
+     100% {opacity: 0%}
+ }
+
+ #bluecapstanding {
+    margin-top: 100%;
+    width: 200px;
+    height: 200px;
+    animation: bottle3 20s 35s infinite; 
+    animation-delay: 40s;
+ }
+
+ @keyframes bluecap {
+    0%  {opacity: 0%}
+     5% {opacity: 10%}
+     10% {opacity: 20%}
+     15% {opacity: 30%}
+     20% {opacity: 40%}
+     25% {opacity: 50%}
+    30%  {opacity: 60%}
+     35% {opacity: 70%}
+    40%  {opacity: 80%}
+     45% {opacity: 90%}
+     50% {opacity:100%}
+     55% {opacity: 90%}
+     60% {opacity: 80%}
+     65% {opacity: 70%}
+     70%  {opacity: 60%}
+     75% {opacity: 50%}
+     80% {opacity: 40%}
+     85% {opacity: 30%}
+     90% {opacity: 20%}
+     95% {opacity: 10%}
+     100% {opacity: 0%}
+ }
+
+ #bluecap {
+    width: 200px;
+    height: 200px;
+    animation: bottle3 22s 33s infinite; 
+    animation-delay: 20s;
+ }
+
+ @keyframes crushedbottle2 {
+    0%  {opacity: 0%}
+     5% {opacity: 10%}
+     10% {opacity: 20%}
+     15% {opacity: 30%}
+     20% {opacity: 40%}
+     25% {opacity: 50%}
+    30%  {opacity: 60%}
+     35% {opacity: 70%}
+    40%  {opacity: 80%}
+     45% {opacity: 90%}
+     50% {opacity:100%}
+     55% {opacity: 90%}
+     60% {opacity: 80%}
+     65% {opacity: 70%}
+     70%  {opacity: 60%}
+     75% {opacity: 50%}
+     80% {opacity: 40%}
+     85% {opacity: 30%}
+     90% {opacity: 20%}
+     95% {opacity: 10%}
+     100% {opacity: 0%}
+ }
+
+ #crushedbottle2 {
+    width: 100%;
+    height: 100%;
+    animation: bottle3 25s 22s infinite; 
+    animation-delay: 16s;
+ }
+
+ @keyframes crushedbottle4 {
+    0%  {opacity: 0%}
+     5% {opacity: 10%}
+     10% {opacity: 20%}
+     15% {opacity: 30%}
+     20% {opacity: 40%}
+     25% {opacity: 50%}
+    30%  {opacity: 60%}
+     35% {opacity: 70%}
+    40%  {opacity: 80%}
+     45% {opacity: 90%}
+     50% {opacity:100%}
+     55% {opacity: 90%}
+     60% {opacity: 80%}
+     65% {opacity: 70%}
+     70%  {opacity: 60%}
+     75% {opacity: 50%}
+     80% {opacity: 40%}
+     85% {opacity: 30%}
+     90% {opacity: 20%}
+     95% {opacity: 10%}
+     100% {opacity: 0%}
+ }
+
+ #crushedbottle4 {
+    width: 200px;
+    height: 200px;
+    animation: bottle3 21s 32s infinite; 
+    animation-delay: 25s;
+ }
+
+ @keyframes crushedwhitebag {
+    0%  {opacity: 0%}
+     5% {opacity: 10%}
+     10% {opacity: 20%}
+     15% {opacity: 30%}
+     20% {opacity: 40%}
+     25% {opacity: 50%}
+    30%  {opacity: 60%}
+     35% {opacity: 70%}
+    40%  {opacity: 80%}
+     45% {opacity: 90%}
+     50% {opacity:100%}
+     55% {opacity: 90%}
+     60% {opacity: 80%}
+     65% {opacity: 70%}
+     70%  {opacity: 60%}
+     75% {opacity: 50%}
+     80% {opacity: 40%}
+     85% {opacity: 30%}
+     90% {opacity: 20%}
+     95% {opacity: 10%}
+     100% {opacity: 0%}
+ }
+
+ #crushedwhitebag {
+    width: 200px;
+    height: 200px;
+    animation: bottle3 22s 30s infinite; 
+    animation-delay: 10s;
+ }
+
+ @keyframes lgsidebottle {
+    0%  {opacity: 0%}
+     5% {opacity: 10%}
+     10% {opacity: 20%}
+     15% {opacity: 30%}
+     20% {opacity: 40%}
+     25% {opacity: 50%}
+    30%  {opacity: 60%}
+     35% {opacity: 70%}
+    40%  {opacity: 80%}
+     45% {opacity: 90%}
+     50% {opacity:100% }
+     55% {opacity: 90%}
+     60% {opacity: 80%}
+     65% {opacity: 70%}
+     70%  {opacity: 60%}
+     75% {opacity: 50%}
+     80% {opacity: 40%}
+     85% {opacity: 30%}
+     90% {opacity: 20%}
+     95% {opacity: 10%}
+     100% {opacity: 0%}
+ }
+
+ #lgsidebottle {
+    width: 200px;
+    height: 200px;
+    animation: bottle3 21s 34s infinite; 
+    animation-delay: 11s;
+    margin-top: 85%;
+    margin-left:  40%;
  }
 
 
