@@ -1,10 +1,5 @@
-
-$ (document).ready (function() {
-
-    $ ("#a2") .hide ();
+$ (document) .ready (function() {
+$ (p="a2") .hide ();
 
 
-
-
-		
 });
