@@ -1,5 +1,10 @@
 
 
+#poster {
+    width: 100vw;
+    height: vh;
+}
+
 /* Page Formating */
 .body {
     margin: 2%;
@@ -20,7 +25,8 @@
     bottom: 0%;
     right: 0%;
     left: 0%;
-    max-width: 1700px;
+    max-width: 100vw;
+    height: 100vh;
 }
 
 
@@ -80,17 +86,21 @@ button:active {
 /* Background Image placement */
 
 .img.background {
-    max-width: 100%;
-    height: 100%;
+    max-width: 100vw;
+    height: 100vh;
     background-repeat: no-repeat;
-    background-size: cover;
+
 }
 
 body {
-    background: url ="media/video/Ocean-Poster.gif)" no-repeat center 
+    background {
+        img scr="media/video/Ocean-Poster.gif" no-repeat center }
     background-repeat:  no-repeat; 
     background-size: cover; 
   position: center; 
+  width: 100vw;
+  height: 100vh;
+  
   }
   
     
@@ -101,6 +111,8 @@ background {
 
 image #gif {
     background-attachment: fixed;
+    width: 100vw;
+    height: vh;
 }
 
 /* Menu Links to... */
@@ -201,6 +213,22 @@ h6 {
     display: block;
     margin-left: 30px;
     width: 100%;
+}
+
+#a2 {
+    color: #ffffff;
+}
+
+#a3 {
+    color: #ffffff;
+}
+
+#a4 {
+    color: #ffffff;
+}
+
+#Why {
+   display: block;
 }
 
 /* Image Displays and Animations */
