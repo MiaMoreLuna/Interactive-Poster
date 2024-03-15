@@ -1,9 +1,9 @@
 
 
-
+/* Page Formating */
 .body {
-    margin: 0;
-    padding: 0;
+    margin: 2%;
+    padding: 3%;
 }
 .body {
     position: fixed;
@@ -25,12 +25,15 @@
 
 
 
-
+/* Bullet Point List Placement */
 .ul {
     float: left;
     padding: 10px;
+    margin-left: 10%;
+  
 }
 
+/* Question Buttoms */
 button {
     background-color: transparent; 
     border: none;
@@ -53,6 +56,8 @@ button:active {
     transform: translateY(4px);
 }
 
+/* "Junk image set ups */
+
 .junk {
     float: left;
     padding: 1%;
@@ -72,6 +77,8 @@ button:active {
     max-width: 500px;
 }
 
+/* Background Image placement */
+
 .img.background {
     max-width: 100%;
     height: 100%;
@@ -80,10 +87,9 @@ button:active {
 }
 
 body {
-    background: url ="media/video/Ocean-Poster.gif)"no-repeat center 
-    background-repeat:  no-repeat;
-    
-    background-size: cover;
+    background: url ="media/video/Ocean-Poster.gif)" no-repeat center 
+    background-repeat:  no-repeat; 
+    background-size: cover; 
   position: center; 
   }
   
@@ -93,9 +99,14 @@ background {
     background-color: rgb(11, 37, 83);
 }
 
+image #gif {
+    background-attachment: fixed;
+}
+
+/* Menu Links to... */
 .menu ul {
     list-style-type: none;
-    
+   
 }
 
 .menu li {
@@ -103,34 +114,37 @@ background {
     text-align: center;
     float: left;
     width: 400px;
-    padding-left: 100%;
+    padding-left: 55%;
    padding-bottom: 0%;
    
 }
-
 .menu li a:hover {
-    background-color: cornflowerblue;
-}
-
-image #gif {
-    background-attachment: fixed;
-
+    background-color: #e8bebe60;
 }
 
 
+/* Font Stylings */
 
 h1{
+    background-color: rgb(163, 205, 247);
+    width: 100%;
+    height: 120px;
+    padding: 1% 0% 0% 2%
+}
+   h1 { display: block;
     font-family: "brevia", sans-serif;
     font-weight: 1000;
     font-style: bold;
-    font-size: 56px;
+    font-size: 68px;
     margin-left: 30px;
     margin-top: 300px;
-  
+    text-align: left;
+   
 }
 
 h2{
     font-family: "nexa-rust-script-shad-2", sans-serif;
+    color: #ffffff;
     font-weight: 600;
     font-style: normal;
     margin-left: 30px;
@@ -146,14 +160,17 @@ font-size: 48px;
 margin-left: 30px;
 }
 
+/* Sub Titile Text */
 h4 {
     font-family: "hello-bloomie-script", sans-serif;
+    color: #67b2e8;;
 font-weight: 800;
 font-style: bold;
 font-size: 48px;
 margin-left: 30px;
 }
 
+/* Upper Qestions and Answers */
 h5 {
      font-family: "brevia", sans-serif;
     font-weight: 1000;
@@ -163,13 +180,22 @@ h5 {
     margin-top: 80px;
 }
 
+/* Bullet Point List Only */
+h6 {
+    font-family: "brevia", sans-serif;
+    color: #f9fafb;
+    font-weight: 1000;
+    font-style: bold;
+    font-size: 68px;
+    margin-left: 30px;
+    margin-top: 300px;
+    
+}
+
 .question {
     display: inline;
     margin-top: 530px;
 }
-
-
-
 
 .answer1 {
     display: block;
@@ -177,6 +203,7 @@ h5 {
     width: 100%;
 }
 
+/* Image Displays and Animations */
 .bottle1 {
     padding-left: 1%;
     padding-bottom: 0%;
