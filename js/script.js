@@ -19,8 +19,19 @@ $("#q2").click (function(){
  $(".thewhy").click (function(){
     $("#Why").show ();
  });
+ 
+$("#seal1").hide ();
+$("#bottle3").click (function(){
+    $("#seal1").show ();
+    $("seal1").toggle (slow);
 
+    
+});
 
+$("#deadwhale").hide ();
+$("#crushedwhitebag").click (function(){
+    $("#deadwhale").show ();
+;});
    
  
 });
