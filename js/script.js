@@ -31,7 +31,17 @@ $("#bottle3").click (function(){
 $("#deadwhale").hide ();
 $("#crushedwhitebag").click (function(){
     $("#deadwhale").show ();
-;});
+});
+
+$("#bird1").hide ();
+$("#crushedbottle2").click (function(){
+    $("#bird1").show ();
+});
+
+$("#d1").hide ();
+$("#bottle1").click (function(){
+    $("#d1").show ();
+});
    
  
 });

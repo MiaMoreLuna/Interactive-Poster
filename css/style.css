@@ -227,10 +227,30 @@ h6 {
     color: #ffffff;
 }
 
-
-
 /* Image Displays and Animations */
-.bottle1 {
+
+.Animals {
+
+    display: flex;
+    padding-bottom: 25%;
+}
+
+#deadwhale {
+    float: left;
+}
+
+#d1 {
+    float: left;
+}
+
+#bird1 {
+    padding: 2px;
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+#bottle1 {
     padding-left: 1%;
     padding-bottom: 0%;
     float: left;
